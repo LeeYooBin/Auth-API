@@ -17,6 +17,7 @@ import com.example.login_auth_api.domain.models.User;
 
 import java.util.Optional;
 
+@SuppressWarnings("rawtypes")
 @RestController
 @RequestMapping("/auth")
 public class AuthController {
